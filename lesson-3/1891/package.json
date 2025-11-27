@@ -4,9 +4,9 @@
     "description": "MintableERC20 implementation for Polkadot Solidity native",
     "main": "index.js",
     "scripts": {
-        "test": "hardhat test",
-        "compile": "hardhat compile",
-        "node": "hardhat node"
+        "test": "../node_modules/.bin/hardhat test",
+        "compile": "../node_modules/.bin/hardhat compile",
+        "node": "../node_modules/.bin/hardhat node"
     },
     "keywords": [
         "solidity",
